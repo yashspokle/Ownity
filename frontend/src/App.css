@@ -1,0 +1,74 @@
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* Professional typography */
+h1,
+h2,
+h3,
+h4 {
+  color: #252B33;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+/* Clean cards */
+.card {
+  padding: 1.5rem;
+  background: #FFFFFF;
+  border: 1px solid #E4E1DA;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(37, 43, 51, 0.04);
+}
+
+/* Professional buttons */
+button {
+  background: #344B63;
+  color: #FFFFFF;
+  border: 1px solid #344B63;
+  border-radius: 7px;
+  padding: 0.7rem 1.2rem;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #26394D;
+}
+
+/* Form controls */
+input,
+select,
+textarea {
+  color: #252B33;
+  background: #FFFFFF;
+  border: 1px solid #D8DDE3;
+  border-radius: 7px;
+  padding: 0.7rem 0.85rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid #A8B9C8;
+  outline-offset: 1px;
+  border-color: #526B83;
+}
+
+/* Secondary text */
+.read-the-docs {
+  color: #68717D;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .card {
+    padding: 1rem;
+  }
+}
